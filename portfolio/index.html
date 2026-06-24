@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -56,16 +56,16 @@ body{background:var(--ground);color:var(--text-primary);font-family:var(--ff-san
 /* ── HEADLINE NAME ── */
 .headline-wrap{
   padding:6px 0 0;
-  overflow:hidden;
 }
 .headline-name{
-  font-size:clamp(4.5rem,11vw,10.5rem);
+  font-size:clamp(4rem,9vw,9rem);
   font-weight:900;line-height:.9;
   letter-spacing:-.04em;
   text-transform:uppercase;
   display:flex;align-items:baseline;
   justify-content:space-between;
   gap:0;
+  white-space:nowrap;
 }
 .hn-1{color:var(--text-primary)}
 .hn-div{
@@ -317,7 +317,7 @@ section:not(#hero){padding:88px 80px}
   .about-grid{grid-template-columns:1fr;gap:32px}
   .proj-grid,.pub-grid{grid-template-columns:1fr}
   #contact{padding:60px 20px 80px}
-  .headline-name{font-size:clamp(3.6rem,13vw,6rem)}
+  .headline-name{font-size:clamp(2.4rem,10vw,5rem)}
   .hn-div{margin:4px 12px 0}
   .sec-title{font-size:1.7rem}
 }
